@@ -1,12 +1,16 @@
 {:paths ["src" "resources"]
  :deps {org.clojure/clojure {:mvn/version "1.10.3"}
         io.github.nextjournal/clerk {:mvn/version "0.2.214"}
-        com.github.seancorfield/next.jdbc  {:mvn/version "1.2.659"}
-        meta-csv/meta-csv                  {:mvn/version "0.1.0"}
-        org.xerial/sqlite-jdbc             {:mvn/version "3.34.0"}
-        jackrusher/mundaneum               {:git/url "https://github.com/jackrusher/mundaneum/"
-                                            :git/sha "84476918ee47b66a2d6128e1a90780e52fd2ae44"}
-        arrowic/arrowic                    {:mvn/version "0.1.1"}}
+        ; com.github.seancorfield/next.jdbc  {:mvn/version "1.2.659"}
+        ; meta-csv/meta-csv                  {:mvn/version "0.1.0"}
+        ; org.xerial/sqlite-jdbc             {:mvn/version "3.34.0"}
+        ; jackrusher/mundaneum               {:git/url "https://github.com/jackrusher/mundaneum/"
+        ;                                     :git/sha "84476918ee47b66a2d6128e1a90780e52fd2ae44"}
+        ; arrowic/arrowic                    {:mvn/version "0.1.1"}
+        ;; lern maskiin
+        ; scicloj/tablecloth {:mvn/version "6.031"}
+        scicloj/scicloj.ml {:mvn/version "0.1.1"}
+        }
  :aliases
  {:test
   {:extra-paths ["test"]
